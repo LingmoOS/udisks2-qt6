@@ -1,0 +1,30 @@
+Source: udisks2-qt6
+Section: libs
+Priority: optional
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               qt6-base-dev,
+               qt6-base-private-dev,
+               pkg-config
+Standards-Version: 4.5.1
+Homepage: https://github.com/linuxdeepin/udisks2-qt6
+
+Package: libudisks2-qt6
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: UDisks2 library with Qt6
+ UDisks2 library developed by Qt6.
+ .
+ This package contains the shared libraries.
+
+Package: libudisks2-qt6-dev
+Section: libdevel
+Architecture: any
+Depends: libudisks2-qt6 (= ${binary:Version}),
+         ${misc:Depends},
+         qt6-base-dev
+Description: UDisks2 library with Qt6 - development files
+ UDisks2 library developed by Qt6.
+ .
+ This package contains the development files.
