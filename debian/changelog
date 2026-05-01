@@ -1,3 +1,9 @@
+udisks2-qt6 (6.0.2.lingmo.1) unstable; urgency=medium
+
+  * new release for Lingmo OS.
+
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 01 May 2026 21:14:00 +0800
+
 udisks2-qt6 (6.0.1) unstable; urgency=medium
 
   * Update version to 6.0.1
